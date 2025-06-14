@@ -1,0 +1,4582 @@
+{
+  "version": 3,
+  "sources": [
+    "../../task_three/contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAOQ;;AAAc;AAAd;AACA;AAAoB;AAApB;AALR;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;AAwFK;;AAAA;AAAA;AAAA;;AAAA;AAxFL;;;AAAA;AAAA;;;AAwFK;;;AAAA;;AAbA;;AAAA;AAAA;AAAA;;AAAA;AA3EL;;;AAAA;AAAA;;;AAAA;;;AAAA;;;AAAA;AA2EK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAhBA;;AAAA;AAAA;AAAA;;AAAA;AA3DL;;;AAAA;AAAA;;;AAAA;AAAA;;;AA2DK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAzBA;;AAAA;AAAA;AAAA;;AAAA;AAlCL;;;AAAA;AAAA;;;AAkCK;;;AAAA;;AA3BA;;AAAA;AAAA;AAAA;;AAAA;AAPL;;;AAAA;AAAA;;;AAAA;AAAA;;;AAAA;;;AAAA;;;AAAA;;;AAAA;;;AAAA;;;AAOK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAPL;;AAAA;;;;;;;;;AAOA;;;AASe;;AAAc;;AAAd;AAAP;AAEc;AAMF;;AACA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAPE;;;;AAUN;;;AAVM;;;AAad;;AAAA;;AAAA;AACA;AAER;;;;;;AAEe;;AAAc;;AAAd;AAAP;AAEG;;AAAA;AAAU;AAAV;AAAA;AAAA;AAAA;AAAA;;AAAX;;;AACkB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AACY;AAAA;AAAA;;AAAP;AAAP;;AAAO;;AAAA;;AAAA;AAAvB;;;AACmB;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAnB;;;AACoB;AAFG;;AAAA;AAAA;AAAA;;;;;AAGX;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AACA;;AAAA;AAAA;;AAAA;AAAA;;AAGA;;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;AACA;;AAAA;AAAA;;AAAA;AAAA;;AAEZ;;;;;;AAEW;;AAAA;AAAU;AAAV;AAAA;AAAA;AAAA;AAAA;;AAAX;;;AACkB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AACY;AAAA;AAAA;;AAAP;AAAP;;AAAO;;AAAA;;AAAA;AAAvB;;;AACmB;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAnB;;;AAC2B;AAAP;;AAAA;AAFG;;AAAA;AAAA;AAAA;;;;;AAGR;AAAP;;AAAA;AAER;;;AAEe;;AAAc;;AAAd;AAAP;AACO;;AAAA;;AAAA;;;AAAP;AAEA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAEA;AAGiB;;;;;;;;;;;;;;;;AAHjB;;;AAKQ;;;AALR;AAOO;AAAP;AAER;;;AAEe;;AAAA;;AAAA;;;AAAP;AAEA;;;;;;;;;;;;;;;;;AAAA;;;AAKQ;;;AALR;AAOO;AAAP;AAER;;;;;;;;AAEe;;AAAc;;AAAd;AAAP;AAEG;;AAAA;AAAU;AAAV;AAAA;AAAA;AAAA;AAAA;;AAAX;;;AACkB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AACI;;;;AAAA;;AACQ;AAAA;AAAA;;AAAP;AAAP;;AAAO;;AAAA;;AAAA;AAAvB;;;AACmB;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;;;;;AAAnB;;;AACoB;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;;;;;;AAFG;;AAAA;AAAA;AAAA;;;;;AAGX;;AAAA;AAAA;;AAAA;;AAAA;",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.__algopy_entrypoint_with_init",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 32 4"
+    },
+    "7": {
+      "op": "bytecblock \"total_minted\" 0x151f7c75 \"\" \"whitelist\" \"asa_id\""
+    },
+    "45": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "47": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": []
+    },
+    "50": {
+      "op": "bytec 4 // \"asa_id\"",
+      "defined_out": [
+        "\"asa_id\""
+      ],
+      "stack_out": [
+        "\"asa_id\""
+      ]
+    },
+    "52": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"asa_id\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"asa_id\"",
+        "0"
+      ]
+    },
+    "53": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "54": {
+      "op": "bytec_0 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\""
+      ],
+      "stack_out": [
+        "\"total_minted\""
+      ]
+    },
+    "55": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"total_minted\"",
+        "0"
+      ]
+    },
+    "56": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "57": {
+      "block": "main_after_if_else@2",
+      "stack_in": [],
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "tmp%0#2"
+      ]
+    },
+    "59": {
+      "op": "bz main_bare_routing@10",
+      "stack_out": []
+    },
+    "62": {
+      "op": "pushbytess 0x8b29988f 0xba3565e2 0xd399e4f9 0xcc44bd18 0x12bcae35 // method \"asset_create(uint64,uint64,string,string,string)uint64\", method \"add_to_whitelist(uint64,address)void\", method \"mint(uint64,uint64,address)bool\", method \"transfer(uint64,address,address,uint64)bool\", method \"remove_from_whitelist(uint64,address)void\"",
+      "defined_out": [
+        "Method(add_to_whitelist(uint64,address)void)",
+        "Method(asset_create(uint64,uint64,string,string,string)uint64)",
+        "Method(mint(uint64,uint64,address)bool)",
+        "Method(remove_from_whitelist(uint64,address)void)",
+        "Method(transfer(uint64,address,address,uint64)bool)"
+      ],
+      "stack_out": [
+        "Method(asset_create(uint64,uint64,string,string,string)uint64)",
+        "Method(add_to_whitelist(uint64,address)void)",
+        "Method(mint(uint64,uint64,address)bool)",
+        "Method(transfer(uint64,address,address,uint64)bool)",
+        "Method(remove_from_whitelist(uint64,address)void)"
+      ]
+    },
+    "89": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(add_to_whitelist(uint64,address)void)",
+        "Method(asset_create(uint64,uint64,string,string,string)uint64)",
+        "Method(mint(uint64,uint64,address)bool)",
+        "Method(remove_from_whitelist(uint64,address)void)",
+        "Method(transfer(uint64,address,address,uint64)bool)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(asset_create(uint64,uint64,string,string,string)uint64)",
+        "Method(add_to_whitelist(uint64,address)void)",
+        "Method(mint(uint64,uint64,address)bool)",
+        "Method(transfer(uint64,address,address,uint64)bool)",
+        "Method(remove_from_whitelist(uint64,address)void)",
+        "tmp%2#0"
+      ]
+    },
+    "92": {
+      "op": "match main_asset_create_route@5 main_add_to_whitelist_route@6 main_mint_route@7 main_transfer_route@8 main_remove_from_whitelist_route@9",
+      "stack_out": []
+    },
+    "104": {
+      "block": "main_after_if_else@12",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "105": {
+      "op": "return",
+      "stack_out": []
+    },
+    "106": {
+      "block": "main_remove_from_whitelist_route@9",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "108": {
+      "op": "!",
+      "defined_out": [
+        "tmp%36#0"
+      ],
+      "stack_out": [
+        "tmp%36#0"
+      ]
+    },
+    "109": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "110": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%37#0"
+      ],
+      "stack_out": [
+        "tmp%37#0"
+      ]
+    },
+    "112": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "113": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%7#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%7#0"
+      ]
+    },
+    "116": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%39#0"
+      ],
+      "stack_out": [
+        "tmp%39#0"
+      ]
+    },
+    "117": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[32]%4#0",
+        "tmp%39#0"
+      ],
+      "stack_out": [
+        "tmp%39#0",
+        "reinterpret_bytes[32]%4#0"
+      ]
+    },
+    "120": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.remove_from_whitelist",
+      "op": "callsub remove_from_whitelist",
+      "stack_out": []
+    },
+    "123": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "124": {
+      "op": "return",
+      "stack_out": []
+    },
+    "125": {
+      "block": "main_transfer_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%28#0"
+      ],
+      "stack_out": [
+        "tmp%28#0"
+      ]
+    },
+    "127": {
+      "op": "!",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "128": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "129": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "131": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "132": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%5#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%5#0"
+      ]
+    },
+    "135": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "136": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[32]%2#0",
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0",
+        "reinterpret_bytes[32]%2#0"
+      ]
+    },
+    "139": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0",
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0",
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0"
+      ]
+    },
+    "142": {
+      "op": "txna ApplicationArgs 4",
+      "defined_out": [
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0",
+        "reinterpret_bytes[8]%6#0",
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0",
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0",
+        "reinterpret_bytes[8]%6#0"
+      ]
+    },
+    "145": {
+      "op": "btoi",
+      "defined_out": [
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0",
+        "tmp%32#0",
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "tmp%32#0",
+        "reinterpret_bytes[32]%2#0",
+        "reinterpret_bytes[32]%3#0",
+        "tmp%33#0"
+      ]
+    },
+    "146": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.transfer",
+      "op": "callsub transfer",
+      "defined_out": [
+        "to_encode%2#0"
+      ],
+      "stack_out": [
+        "to_encode%2#0"
+      ]
+    },
+    "149": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "to_encode%2#0"
+      ],
+      "stack_out": [
+        "to_encode%2#0",
+        "0x00"
+      ]
+    },
+    "152": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "0x00",
+        "to_encode%2#0"
+      ],
+      "stack_out": [
+        "to_encode%2#0",
+        "0x00",
+        "0"
+      ]
+    },
+    "153": {
+      "op": "uncover 2",
+      "stack_out": [
+        "0x00",
+        "0",
+        "to_encode%2#0"
+      ]
+    },
+    "155": {
+      "op": "setbit",
+      "defined_out": [
+        "encoded_bool%1#0"
+      ],
+      "stack_out": [
+        "encoded_bool%1#0"
+      ]
+    },
+    "156": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "encoded_bool%1#0"
+      ],
+      "stack_out": [
+        "encoded_bool%1#0",
+        "0x151f7c75"
+      ]
+    },
+    "157": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "encoded_bool%1#0"
+      ]
+    },
+    "158": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "159": {
+      "op": "log",
+      "stack_out": []
+    },
+    "160": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "161": {
+      "op": "return",
+      "stack_out": []
+    },
+    "162": {
+      "block": "main_mint_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%21#0"
+      ]
+    },
+    "164": {
+      "op": "!",
+      "defined_out": [
+        "tmp%22#0"
+      ],
+      "stack_out": [
+        "tmp%22#0"
+      ]
+    },
+    "165": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "166": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%23#0"
+      ],
+      "stack_out": [
+        "tmp%23#0"
+      ]
+    },
+    "168": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "169": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%3#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%3#0"
+      ]
+    },
+    "172": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "173": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%4#0",
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0",
+        "reinterpret_bytes[8]%4#0"
+      ]
+    },
+    "176": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%25#0",
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%25#0",
+        "tmp%26#0"
+      ]
+    },
+    "177": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[32]%1#0",
+        "tmp%25#0",
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%25#0",
+        "tmp%26#0",
+        "reinterpret_bytes[32]%1#0"
+      ]
+    },
+    "180": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.mint",
+      "op": "callsub mint",
+      "defined_out": [
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0"
+      ]
+    },
+    "183": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "0x00"
+      ]
+    },
+    "186": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "0x00",
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "0x00",
+        "0"
+      ]
+    },
+    "187": {
+      "op": "uncover 2",
+      "stack_out": [
+        "0x00",
+        "0",
+        "to_encode%1#0"
+      ]
+    },
+    "189": {
+      "op": "setbit",
+      "defined_out": [
+        "encoded_bool%0#0"
+      ],
+      "stack_out": [
+        "encoded_bool%0#0"
+      ]
+    },
+    "190": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "encoded_bool%0#0"
+      ],
+      "stack_out": [
+        "encoded_bool%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "191": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "encoded_bool%0#0"
+      ]
+    },
+    "192": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%27#0"
+      ],
+      "stack_out": [
+        "tmp%27#0"
+      ]
+    },
+    "193": {
+      "op": "log",
+      "stack_out": []
+    },
+    "194": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "195": {
+      "op": "return",
+      "stack_out": []
+    },
+    "196": {
+      "block": "main_add_to_whitelist_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%16#0"
+      ]
+    },
+    "198": {
+      "op": "!",
+      "defined_out": [
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0"
+      ]
+    },
+    "199": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "200": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "tmp%18#0"
+      ]
+    },
+    "202": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "203": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%2#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%2#0"
+      ]
+    },
+    "206": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0"
+      ]
+    },
+    "207": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0",
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0",
+        "reinterpret_bytes[32]%0#0"
+      ]
+    },
+    "210": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.add_to_whitelist",
+      "op": "callsub add_to_whitelist",
+      "stack_out": []
+    },
+    "213": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "214": {
+      "op": "return",
+      "stack_out": []
+    },
+    "215": {
+      "block": "main_asset_create_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "217": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "218": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "219": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "221": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "222": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%0#0"
+      ]
+    },
+    "225": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "226": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%1#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "reinterpret_bytes[8]%1#0"
+      ]
+    },
+    "229": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "230": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "233": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "236": {
+      "op": "txna ApplicationArgs 4",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%11#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%11#0"
+      ]
+    },
+    "239": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0"
+      ]
+    },
+    "242": {
+      "op": "txna ApplicationArgs 5",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%13#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%13#0"
+      ]
+    },
+    "245": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0"
+      ]
+    },
+    "248": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.asset_create",
+      "op": "callsub asset_create",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "251": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "252": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "253": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "254": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "255": {
+      "op": "log",
+      "stack_out": []
+    },
+    "256": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "257": {
+      "op": "return",
+      "stack_out": []
+    },
+    "258": {
+      "block": "main_bare_routing@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%40#0"
+      ],
+      "stack_out": [
+        "tmp%40#0"
+      ]
+    },
+    "260": {
+      "op": "bnz main_after_if_else@12",
+      "stack_out": []
+    },
+    "263": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%41#0"
+      ],
+      "stack_out": [
+        "tmp%41#0"
+      ]
+    },
+    "265": {
+      "op": "!",
+      "defined_out": [
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0"
+      ]
+    },
+    "266": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "267": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "268": {
+      "op": "return",
+      "stack_out": []
+    },
+    "269": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.asset_create",
+      "params": {
+        "total#0": "uint64",
+        "decimals#0": "uint64",
+        "unit_name#0": "bytes",
+        "asset_name#0": "bytes",
+        "url#0": "bytes"
+      },
+      "block": "asset_create",
+      "stack_in": [],
+      "op": "proto 5 1"
+    },
+    "272": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "274": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "276": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "277": {
+      "error": "Only creator can create ASA",
+      "op": "assert // Only creator can create ASA",
+      "stack_out": []
+    },
+    "278": {
+      "op": "itxn_begin"
+    },
+    "279": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "281": {
+      "op": "dupn 3",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetClawback_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetClawback_idx_0#0"
+      ]
+    },
+    "283": {
+      "op": "itxn_field ConfigAssetClawback",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0"
+      ]
+    },
+    "285": {
+      "op": "itxn_field ConfigAssetFreeze",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "287": {
+      "op": "itxn_field ConfigAssetReserve",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "289": {
+      "op": "itxn_field ConfigAssetManager",
+      "stack_out": []
+    },
+    "291": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "url#0 (copy)"
+      ],
+      "stack_out": [
+        "url#0 (copy)"
+      ]
+    },
+    "293": {
+      "op": "itxn_field ConfigAssetURL",
+      "stack_out": []
+    },
+    "295": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "asset_name#0 (copy)"
+      ],
+      "stack_out": [
+        "asset_name#0 (copy)"
+      ]
+    },
+    "297": {
+      "op": "itxn_field ConfigAssetName",
+      "stack_out": []
+    },
+    "299": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "unit_name#0 (copy)"
+      ],
+      "stack_out": [
+        "unit_name#0 (copy)"
+      ]
+    },
+    "301": {
+      "op": "itxn_field ConfigAssetUnitName",
+      "stack_out": []
+    },
+    "303": {
+      "op": "frame_dig -4",
+      "defined_out": [
+        "decimals#0 (copy)"
+      ],
+      "stack_out": [
+        "decimals#0 (copy)"
+      ]
+    },
+    "305": {
+      "op": "itxn_field ConfigAssetDecimals",
+      "stack_out": []
+    },
+    "307": {
+      "op": "frame_dig -5",
+      "defined_out": [
+        "total#0 (copy)"
+      ],
+      "stack_out": [
+        "total#0 (copy)"
+      ]
+    },
+    "309": {
+      "op": "itxn_field ConfigAssetTotal",
+      "stack_out": []
+    },
+    "311": {
+      "op": "pushint 3 // acfg",
+      "defined_out": [
+        "acfg"
+      ],
+      "stack_out": [
+        "acfg"
+      ]
+    },
+    "313": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "315": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "316": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "318": {
+      "op": "itxn_submit"
+    },
+    "319": {
+      "op": "itxn CreatedAssetID",
+      "defined_out": [
+        "itxn_result.CreatedAssetID#0"
+      ],
+      "stack_out": [
+        "itxn_result.CreatedAssetID#0"
+      ]
+    },
+    "321": {
+      "op": "bytec 4 // \"asa_id\"",
+      "defined_out": [
+        "\"asa_id\"",
+        "itxn_result.CreatedAssetID#0"
+      ],
+      "stack_out": [
+        "itxn_result.CreatedAssetID#0",
+        "\"asa_id\""
+      ]
+    },
+    "323": {
+      "op": "dig 1",
+      "defined_out": [
+        "\"asa_id\"",
+        "itxn_result.CreatedAssetID#0",
+        "itxn_result.CreatedAssetID#0 (copy)"
+      ],
+      "stack_out": [
+        "itxn_result.CreatedAssetID#0",
+        "\"asa_id\"",
+        "itxn_result.CreatedAssetID#0 (copy)"
+      ]
+    },
+    "325": {
+      "op": "app_global_put",
+      "stack_out": [
+        "itxn_result.CreatedAssetID#0"
+      ]
+    },
+    "326": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "327": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.add_to_whitelist",
+      "params": {
+        "asa_id#0": "uint64",
+        "account#0": "bytes"
+      },
+      "block": "add_to_whitelist",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "330": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0"
+      ]
+    },
+    "331": {
+      "op": "bytec_2 // \"\"",
+      "stack_out": [
+        "arr#0",
+        "idx#0"
+      ]
+    },
+    "332": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "333": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%0#0"
+      ]
+    },
+    "335": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "337": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%2#0"
+      ]
+    },
+    "338": {
+      "error": "Only creator can add to whitelist",
+      "op": "assert // Only creator can add to whitelist",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "339": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "asa_id#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "asa_id#0 (copy)"
+      ]
+    },
+    "341": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "342": {
+      "op": "bytec_3 // \"whitelist\"",
+      "defined_out": [
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "encoded_value%0#0",
+        "\"whitelist\""
+      ]
+    },
+    "343": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ]
+    },
+    "344": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "345": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "346": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "347": {
+      "op": "bury 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "349": {
+      "op": "bz add_to_whitelist_else_body@8",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "352": {
+      "op": "frame_dig 3",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "354": {
+      "op": "box_get",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "355": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "356": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0",
+        "arr#0 (copy)"
+      ]
+    },
+    "357": {
+      "op": "cover 2",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "359": {
+      "op": "frame_bury 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "361": {
+      "error": "check self.whitelist entry exists",
+      "op": "assert // check self.whitelist entry exists",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "362": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "0"
+      ]
+    },
+    "363": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%3#0"
+      ]
+    },
+    "364": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "366": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "367": {
+      "op": "frame_bury 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "369": {
+      "block": "add_to_whitelist_for_header@2",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "371": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "373": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "374": {
+      "op": "bz add_to_whitelist_after_for@7",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "377": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "379": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0"
+      ]
+    },
+    "382": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0"
+      ]
+    },
+    "384": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "32"
+      ]
+    },
+    "385": {
+      "op": "*",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "item_offset%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0"
+      ]
+    },
+    "386": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0",
+        "32"
+      ]
+    },
+    "387": {
+      "error": "Index access is out of bounds",
+      "op": "extract3 // on error: Index access is out of bounds",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "388": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)",
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0",
+        "account#0 (copy)"
+      ]
+    },
+    "390": {
+      "op": "==",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%5#0"
+      ]
+    },
+    "391": {
+      "op": "bz add_to_whitelist_after_if_else@5",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "394": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "395": {
+      "block": "add_to_whitelist_after_if_else@5",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "397": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "1"
+      ]
+    },
+    "398": {
+      "op": "+",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "399": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "401": {
+      "op": "b add_to_whitelist_for_header@2"
+    },
+    "404": {
+      "block": "add_to_whitelist_after_for@7",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 0",
+      "defined_out": [
+        "arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "406": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "arr#0",
+        "expr_value_trimmed%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "expr_value_trimmed%0#0"
+      ]
+    },
+    "409": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)",
+        "arr#0",
+        "expr_value_trimmed%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "expr_value_trimmed%0#0",
+        "account#0 (copy)"
+      ]
+    },
+    "411": {
+      "op": "concat",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0"
+      ]
+    },
+    "412": {
+      "op": "dup",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "concatenated%0#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "concatenated%0#0 (copy)"
+      ]
+    },
+    "413": {
+      "op": "len",
+      "defined_out": [
+        "arr#0",
+        "byte_len%0#0",
+        "concatenated%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "byte_len%0#0"
+      ]
+    },
+    "414": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "arr#0",
+        "byte_len%0#0",
+        "concatenated%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "byte_len%0#0",
+        "32"
+      ]
+    },
+    "415": {
+      "op": "/",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "len_%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "len_%0#0"
+      ]
+    },
+    "416": {
+      "op": "itob",
+      "defined_out": [
+        "arr#0",
+        "as_bytes%0#0",
+        "concatenated%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "as_bytes%0#0"
+      ]
+    },
+    "417": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "len_16_bit%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "len_16_bit%0#0"
+      ]
+    },
+    "420": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "len_16_bit%0#0",
+        "concatenated%0#0"
+      ]
+    },
+    "421": {
+      "op": "concat",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "422": {
+      "op": "frame_dig 3",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "424": {
+      "op": "dup",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)"
+      ]
+    },
+    "425": {
+      "op": "box_del",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "{box_del}"
+      ]
+    },
+    "426": {
+      "op": "pop",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "427": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "428": {
+      "op": "box_put",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "429": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "430": {
+      "block": "add_to_whitelist_else_body@8",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "account#0 (copy)"
+      ]
+    },
+    "432": {
+      "op": "len",
+      "defined_out": [
+        "byte_len%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "byte_len%1#0"
+      ]
+    },
+    "433": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "byte_len%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "byte_len%1#0",
+        "32"
+      ]
+    },
+    "434": {
+      "op": "/",
+      "defined_out": [
+        "len_%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "len_%1#0"
+      ]
+    },
+    "435": {
+      "op": "itob",
+      "defined_out": [
+        "as_bytes%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "as_bytes%1#0"
+      ]
+    },
+    "436": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "len_16_bit%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "len_16_bit%1#0"
+      ]
+    },
+    "439": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "len_16_bit%1#0",
+        "account#0 (copy)"
+      ]
+    },
+    "441": {
+      "op": "concat",
+      "defined_out": [
+        "new_arr#1"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1"
+      ]
+    },
+    "442": {
+      "op": "frame_dig 3",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "new_arr#1"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "444": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)",
+        "new_arr#1"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)"
+      ]
+    },
+    "445": {
+      "op": "box_del",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "new_arr#1",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1",
+        "box_prefixed_key%0#0",
+        "{box_del}"
+      ]
+    },
+    "446": {
+      "op": "pop",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "447": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0",
+        "new_arr#1"
+      ]
+    },
+    "448": {
+      "op": "box_put",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "449": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "450": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.is_whitelisted",
+      "params": {
+        "asa_id#0": "uint64",
+        "account#0": "bytes"
+      },
+      "block": "is_whitelisted",
+      "stack_in": [],
+      "op": "proto 2 1"
+    },
+    "453": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0"
+      ]
+    },
+    "454": {
+      "op": "bytec_2 // \"\"",
+      "stack_out": [
+        "arr#0",
+        "idx#0"
+      ]
+    },
+    "455": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0"
+      ]
+    },
+    "456": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "asa_id#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "asa_id#0 (copy)"
+      ]
+    },
+    "458": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "459": {
+      "op": "bytec_3 // \"whitelist\"",
+      "defined_out": [
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "encoded_value%0#0",
+        "\"whitelist\""
+      ]
+    },
+    "460": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ]
+    },
+    "461": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "462": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "463": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "464": {
+      "op": "bury 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "466": {
+      "op": "bz is_whitelisted_after_if_else@8",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "469": {
+      "op": "frame_dig 3",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "471": {
+      "op": "box_get",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "472": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "473": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0",
+        "arr#0 (copy)"
+      ]
+    },
+    "474": {
+      "op": "cover 2",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "476": {
+      "op": "frame_bury 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "478": {
+      "error": "check self.whitelist entry exists",
+      "op": "assert // check self.whitelist entry exists",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "479": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "0"
+      ]
+    },
+    "480": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "481": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "483": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "484": {
+      "op": "frame_bury 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "486": {
+      "block": "is_whitelisted_for_header@2",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "488": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "tmp%0#0"
+      ]
+    },
+    "490": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "491": {
+      "op": "bz is_whitelisted_after_if_else@8",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "494": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "496": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0"
+      ]
+    },
+    "499": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0"
+      ]
+    },
+    "501": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "32"
+      ]
+    },
+    "502": {
+      "op": "*",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "item_offset%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0"
+      ]
+    },
+    "503": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0",
+        "32"
+      ]
+    },
+    "504": {
+      "error": "Index access is out of bounds",
+      "op": "extract3 // on error: Index access is out of bounds",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "505": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)",
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "tmp%1#0",
+        "account#0 (copy)"
+      ]
+    },
+    "507": {
+      "op": "==",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ]
+    },
+    "508": {
+      "op": "bz is_whitelisted_after_if_else@5",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "511": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "arr#0",
+        "idx#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "1"
+      ]
+    },
+    "512": {
+      "op": "frame_bury 0"
+    },
+    "514": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "515": {
+      "block": "is_whitelisted_after_if_else@5",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "517": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "1"
+      ]
+    },
+    "518": {
+      "op": "+",
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "519": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "521": {
+      "op": "b is_whitelisted_for_header@2"
+    },
+    "524": {
+      "block": "is_whitelisted_after_if_else@8",
+      "stack_in": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%0#0",
+        "box_prefixed_key%0#0",
+        "0"
+      ]
+    },
+    "525": {
+      "op": "frame_bury 0"
+    },
+    "527": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "528": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.mint",
+      "params": {
+        "asa_id#0": "uint64",
+        "amount#0": "uint64",
+        "receiver#0": "bytes"
+      },
+      "block": "mint",
+      "stack_in": [],
+      "op": "proto 3 1"
+    },
+    "531": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "533": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "535": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "536": {
+      "error": "Only creator can mint",
+      "op": "assert // Only creator can mint",
+      "stack_out": []
+    },
+    "537": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "asa_id#0 (copy)"
+      ],
+      "stack_out": [
+        "asa_id#0 (copy)"
+      ]
+    },
+    "539": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asa_id#0 (copy)",
+        "receiver#0 (copy)"
+      ],
+      "stack_out": [
+        "asa_id#0 (copy)",
+        "receiver#0 (copy)"
+      ]
+    },
+    "541": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.is_whitelisted",
+      "op": "callsub is_whitelisted",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "544": {
+      "error": "Receiver not whitelisted",
+      "op": "assert // Receiver not whitelisted",
+      "stack_out": []
+    },
+    "545": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "546": {
+      "op": "bytec_0 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_minted\""
+      ]
+    },
+    "547": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "548": {
+      "error": "check self.total_minted exists",
+      "op": "assert // check self.total_minted exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "549": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "amount#0 (copy)",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "551": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "materialized_values%0#0"
+      ]
+    },
+    "552": {
+      "op": "bytec_0 // \"total_minted\"",
+      "stack_out": [
+        "materialized_values%0#0",
+        "\"total_minted\""
+      ]
+    },
+    "553": {
+      "op": "swap",
+      "stack_out": [
+        "\"total_minted\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "554": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "555": {
+      "op": "itxn_begin"
+    },
+    "556": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetSender_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetSender_idx_0#0"
+      ]
+    },
+    "558": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetSender_idx_0#0",
+        "receiver#0 (copy)"
+      ]
+    },
+    "560": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetSender_idx_0#0"
+      ]
+    },
+    "562": {
+      "op": "itxn_field AssetSender",
+      "stack_out": []
+    },
+    "564": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "amount#0 (copy)"
+      ]
+    },
+    "566": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": []
+    },
+    "568": {
+      "op": "frame_dig -3",
+      "stack_out": [
+        "asa_id#0 (copy)"
+      ]
+    },
+    "570": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "572": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+        "axfer"
+      ],
+      "stack_out": [
+        "axfer"
+      ]
+    },
+    "573": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "575": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "576": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "578": {
+      "op": "itxn_submit"
+    },
+    "579": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "580": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "581": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.transfer",
+      "params": {
+        "asa_id#0": "uint64",
+        "sender#0": "bytes",
+        "receiver#0": "bytes",
+        "amount#0": "uint64"
+      },
+      "block": "transfer",
+      "stack_in": [],
+      "op": "proto 4 1"
+    },
+    "584": {
+      "op": "frame_dig -4",
+      "defined_out": [
+        "asa_id#0 (copy)"
+      ],
+      "stack_out": [
+        "asa_id#0 (copy)"
+      ]
+    },
+    "586": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "asa_id#0 (copy)",
+        "receiver#0 (copy)"
+      ],
+      "stack_out": [
+        "asa_id#0 (copy)",
+        "receiver#0 (copy)"
+      ]
+    },
+    "588": {
+      "callsub": "smart_contracts.task_three.contract.SmartASAController.is_whitelisted",
+      "op": "callsub is_whitelisted",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "591": {
+      "error": "Receiver not whitelisted",
+      "op": "assert // Receiver not whitelisted",
+      "stack_out": []
+    },
+    "592": {
+      "op": "itxn_begin"
+    },
+    "593": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "receiver#0 (copy)"
+      ]
+    },
+    "595": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": []
+    },
+    "597": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0 (copy)"
+      ]
+    },
+    "599": {
+      "op": "itxn_field AssetSender",
+      "stack_out": []
+    },
+    "601": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "amount#0 (copy)"
+      ],
+      "stack_out": [
+        "amount#0 (copy)"
+      ]
+    },
+    "603": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": []
+    },
+    "605": {
+      "op": "frame_dig -4",
+      "stack_out": [
+        "asa_id#0 (copy)"
+      ]
+    },
+    "607": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "609": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+        "axfer"
+      ],
+      "stack_out": [
+        "axfer"
+      ]
+    },
+    "610": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "612": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "613": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "615": {
+      "op": "itxn_submit"
+    },
+    "616": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "617": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "618": {
+      "subroutine": "smart_contracts.task_three.contract.SmartASAController.remove_from_whitelist",
+      "params": {
+        "asa_id#0": "uint64",
+        "account#0": "bytes"
+      },
+      "block": "remove_from_whitelist",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "621": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0"
+      ]
+    },
+    "622": {
+      "op": "dupn 3",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0"
+      ]
+    },
+    "624": {
+      "op": "bytec_2 // \"\"",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0"
+      ]
+    },
+    "625": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "626": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%0#0"
+      ]
+    },
+    "628": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "630": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%2#0"
+      ]
+    },
+    "631": {
+      "error": "Only creator can remove from whitelist",
+      "op": "assert // Only creator can remove from whitelist",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "632": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "asa_id#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "asa_id#0 (copy)"
+      ]
+    },
+    "634": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "635": {
+      "op": "bytec_3 // \"whitelist\"",
+      "defined_out": [
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "encoded_value%0#0",
+        "\"whitelist\""
+      ]
+    },
+    "636": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "\"whitelist\"",
+        "encoded_value%0#0"
+      ]
+    },
+    "637": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "638": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "639": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "640": {
+      "op": "bury 1",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "642": {
+      "op": "bz remove_from_whitelist_after_if_else@8",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "645": {
+      "op": "frame_dig 6",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "647": {
+      "op": "box_get",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "648": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "649": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0",
+        "arr#0",
+        "arr#0 (copy)"
+      ]
+    },
+    "650": {
+      "op": "cover 2",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0",
+        "arr#0"
+      ]
+    },
+    "652": {
+      "op": "frame_bury 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "654": {
+      "error": "check self.whitelist entry exists",
+      "op": "assert // check self.whitelist entry exists",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "655": {
+      "op": "pushbytes 0x0000",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "new_arr#0"
+      ]
+    },
+    "659": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "661": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0",
+        "0"
+      ]
+    },
+    "662": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%3#0"
+      ]
+    },
+    "663": {
+      "op": "frame_bury 5",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "665": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "arr#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "new_arr#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "666": {
+      "op": "frame_bury 4",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "668": {
+      "block": "remove_from_whitelist_for_header@2",
+      "stack_in": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 4",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "670": {
+      "op": "frame_dig 5",
+      "defined_out": [
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ]
+    },
+    "672": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "673": {
+      "op": "bz remove_from_whitelist_after_for@7",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "676": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "arr#0"
+      ]
+    },
+    "678": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0"
+      ]
+    },
+    "681": {
+      "op": "frame_dig 4",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0"
+      ]
+    },
+    "683": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "32"
+      ]
+    },
+    "684": {
+      "op": "*",
+      "defined_out": [
+        "arr#0",
+        "array_head_and_tail%0#0",
+        "idx#0",
+        "item_offset%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0"
+      ]
+    },
+    "685": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "array_head_and_tail%0#0",
+        "item_offset%0#0",
+        "32"
+      ]
+    },
+    "686": {
+      "error": "Index access is out of bounds",
+      "op": "extract3 // on error: Index access is out of bounds",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "687": {
+      "op": "dup",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0",
+        "tmp%4#0"
+      ]
+    },
+    "688": {
+      "op": "frame_bury 3",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "690": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)",
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%4#0",
+        "account#0 (copy)"
+      ]
+    },
+    "692": {
+      "op": "!=",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "tmp%3#0",
+        "tmp%4#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%5#0"
+      ]
+    },
+    "693": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%5#0",
+        "new_arr#9"
+      ]
+    },
+    "695": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "tmp%5#0"
+      ]
+    },
+    "697": {
+      "op": "bz remove_from_whitelist_after_if_else@5",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "700": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "arr#0",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ]
+    },
+    "702": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "arr#0",
+        "expr_value_trimmed%0#0",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "expr_value_trimmed%0#0"
+      ]
+    },
+    "705": {
+      "op": "frame_dig 3",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "expr_value_trimmed%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "707": {
+      "op": "concat",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0"
+      ]
+    },
+    "708": {
+      "op": "dup",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "concatenated%0#0 (copy)",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "concatenated%0#0 (copy)"
+      ]
+    },
+    "709": {
+      "op": "len",
+      "defined_out": [
+        "arr#0",
+        "byte_len%0#0",
+        "concatenated%0#0",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "byte_len%0#0"
+      ]
+    },
+    "710": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "byte_len%0#0",
+        "32"
+      ]
+    },
+    "711": {
+      "op": "/",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "idx#0",
+        "len_%0#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "len_%0#0"
+      ]
+    },
+    "712": {
+      "op": "itob",
+      "defined_out": [
+        "arr#0",
+        "as_bytes%0#0",
+        "concatenated%0#0",
+        "idx#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "as_bytes%0#0"
+      ]
+    },
+    "713": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "arr#0",
+        "concatenated%0#0",
+        "idx#0",
+        "len_16_bit%0#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "concatenated%0#0",
+        "len_16_bit%0#0"
+      ]
+    },
+    "716": {
+      "op": "swap",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "len_16_bit%0#0",
+        "concatenated%0#0"
+      ]
+    },
+    "717": {
+      "op": "concat",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#9"
+      ]
+    },
+    "718": {
+      "op": "frame_bury 2",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "720": {
+      "block": "remove_from_whitelist_after_if_else@5",
+      "stack_in": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 2",
+      "defined_out": [
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ]
+    },
+    "722": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "724": {
+      "op": "frame_dig 4",
+      "defined_out": [
+        "idx#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "726": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "idx#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0",
+        "1"
+      ]
+    },
+    "727": {
+      "op": "+",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "idx#0"
+      ]
+    },
+    "728": {
+      "op": "frame_bury 4",
+      "defined_out": [
+        "idx#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "730": {
+      "op": "b remove_from_whitelist_for_header@2"
+    },
+    "733": {
+      "block": "remove_from_whitelist_after_for@7",
+      "stack_in": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "op": "frame_dig 6",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "735": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0 (copy)"
+      ]
+    },
+    "736": {
+      "op": "box_del",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0",
+        "{box_del}"
+      ]
+    },
+    "737": {
+      "op": "pop",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "738": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ],
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0",
+        "new_arr#0"
+      ]
+    },
+    "740": {
+      "op": "box_put",
+      "stack_out": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "741": {
+      "block": "remove_from_whitelist_after_if_else@8",
+      "stack_in": [
+        "arr#0",
+        "new_arr#0",
+        "new_arr#9",
+        "tmp%4#0",
+        "idx#0",
+        "tmp%3#0",
+        "box_prefixed_key%0#0"
+      ],
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}

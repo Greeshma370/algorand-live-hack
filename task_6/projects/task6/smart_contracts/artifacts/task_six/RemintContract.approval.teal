@@ -1,0 +1,140 @@
+#pragma version 10
+#pragma typetrack false
+
+// smart_contracts.task_six.contract.RemintContract.__algopy_entrypoint_with_init() -> uint64:
+main:
+    bytecblock 0x151f7c75 0x61737365746d6574610000000000000001 0x61737365746d6574610000000000000002 0x0000000000000002
+    // smart_contracts/task_six/contract.py:16
+    // class RemintContract(ARC4Contract):
+    txn NumAppArgs
+    bz main_bare_routing@7
+    pushbytess 0x81e91116 0x75cca6f1 // method "create_asset((uint64,uint32,bool,string,string,string,byte[],address,address,address,address))uint64", method "remint(string,uint64)uint64"
+    txna ApplicationArgs 0
+    match main_create_asset_route@5 main_remint_route@6
+
+main_after_if_else@9:
+    // smart_contracts/task_six/contract.py:16
+    // class RemintContract(ARC4Contract):
+    pushint 0 // 0
+    return
+
+main_remint_route@6:
+    // smart_contracts/task_six/contract.py:27
+    // @arc4.abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/task_six/contract.py:16
+    // class RemintContract(ARC4Contract):
+    txna ApplicationArgs 1
+    txna ApplicationArgs 2
+    // smart_contracts/task_six/contract.py:27
+    // @arc4.abimethod
+    callsub remint
+    bytec_0 // 0x151f7c75
+    swap
+    concat
+    log
+    pushint 1 // 1
+    return
+
+main_create_asset_route@5:
+    // smart_contracts/task_six/contract.py:21
+    // @arc4.abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/task_six/contract.py:16
+    // class RemintContract(ARC4Contract):
+    txna ApplicationArgs 1
+    // smart_contracts/task_six/contract.py:21
+    // @arc4.abimethod
+    callsub create_asset
+    bytec_0 // 0x151f7c75
+    swap
+    concat
+    log
+    pushint 1 // 1
+    return
+
+main_bare_routing@7:
+    // smart_contracts/task_six/contract.py:16
+    // class RemintContract(ARC4Contract):
+    txn OnCompletion
+    bnz main_after_if_else@9
+    txn ApplicationID
+    !
+    assert // can only call when creating
+    pushint 1 // 1
+    return
+
+
+// smart_contracts.task_six.contract.RemintContract.create_asset(meta: bytes) -> bytes:
+create_asset:
+    // smart_contracts/task_six/contract.py:21-22
+    // @arc4.abimethod
+    // def create_asset(self, meta: AssetMetadata) -> arc4.UInt64:
+    proto 1 1
+    // smart_contracts/task_six/contract.py:24
+    // self.asset_metadata[new_asset_id] = meta.copy()
+    bytec_1 // 0x61737365746d6574610000000000000001
+    box_del
+    pop
+    bytec_1 // 0x61737365746d6574610000000000000001
+    frame_dig -1
+    box_put
+    // smart_contracts/task_six/contract.py:23
+    // new_asset_id = arc4.UInt64(1)  # Placeholder, must be arc4.UInt64
+    pushbytes 0x0000000000000001
+    // smart_contracts/task_six/contract.py:25
+    // return new_asset_id
+    retsub
+
+
+// smart_contracts.task_six.contract.RemintContract.remint(user_id: bytes, asset_id: bytes) -> bytes:
+remint:
+    // smart_contracts/task_six/contract.py:27-28
+    // @arc4.abimethod
+    // def remint(self, user_id: arc4.String, asset_id: arc4.UInt64) -> arc4.UInt64:
+    proto 2 1
+    // smart_contracts/task_six/contract.py:29
+    // assert user_id not in self.user_map, "User already re-minted"
+    pushbytes "users"
+    frame_dig -2
+    concat
+    dup
+    box_len
+    bury 1
+    !
+    assert // User already re-minted
+    // smart_contracts/task_six/contract.py:30
+    // meta = self.asset_metadata[asset_id].copy()
+    pushbytes "assetmeta"
+    frame_dig -1
+    concat
+    box_get
+    assert // check self.asset_metadata entry exists
+    // smart_contracts/task_six/contract.py:32
+    // self.asset_metadata[new_asset_id] = meta.copy()
+    bytec_2 // 0x61737365746d6574610000000000000002
+    box_del
+    pop
+    bytec_2 // 0x61737365746d6574610000000000000002
+    swap
+    box_put
+    // smart_contracts/task_six/contract.py:31
+    // new_asset_id = arc4.UInt64(2)  # Placeholder, must be arc4.UInt64
+    bytec_3 // 0x0000000000000002
+    // smart_contracts/task_six/contract.py:33
+    // self.user_map[user_id] = new_asset_id
+    box_put
+    // smart_contracts/task_six/contract.py:31
+    // new_asset_id = arc4.UInt64(2)  # Placeholder, must be arc4.UInt64
+    bytec_3 // 0x0000000000000002
+    // smart_contracts/task_six/contract.py:34
+    // return new_asset_id
+    retsub
