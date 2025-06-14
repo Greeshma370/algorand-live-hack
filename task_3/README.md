@@ -1,22 +1,29 @@
-# task_3
+SmartASAController – Algorand ARC-4 Whitelist Minting Contract
+This ARC-4 compliant smart contract (SmartASAController) allows controlled creation, minting, and transfer of Algorand Standard Assets (ASA) with a built-in whitelist mechanism.
 
-Welcome to your new AlgoKit project!
+Features
+Asset Creation: Only the app creator can create a new ASA.
 
-This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
+Whitelist Management:
 
-By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
+Add/remove accounts from a whitelist per ASA ID.
 
-## Getting Started
+Only whitelisted addresses can receive minted tokens.
 
-To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
+Minting:
 
-To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
+Creator can mint ASA tokens to whitelisted addresses only.
 
-### GitHub Codespaces
+Transfers:
 
-To get started execute:
+Only allowed if the receiver is whitelisted.
 
-1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
-2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
+Technology Stack
+algopy for smart contract logic.
 
-Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
+ARC-4 ABI methods to enable frontend integrations.
+
+Use Case
+Ideal for token-gated access, credential distribution, loyalty programs, or any system requiring permissioned minting and transfer.
+
+To deploy this contract, use AlgoKit or Algorand’s testing environment with algopy and ARC-4 support.
