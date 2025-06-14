@@ -1,22 +1,19 @@
-# task6
+RemintContract – Asset Re-Minting via ARC-4
+This smart contract demonstrates asset metadata management and controlled re-minting of Algorand Standard Assets (ASA) using Algorand's ARC-4 ABI specification and algopy.
 
-Welcome to your new AlgoKit project!
+Features
+Structured Metadata: Uses AssetMetadata struct to store ASA parameters like total supply, unit name, metadata hash, and role addresses.
 
-This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
+Asset Creation: Creator can store metadata for an ASA, simulating creation.
 
-By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
+Re-Minting Logic:
 
-## Getting Started
+Each user (identified by a user_id) is allowed to re-mint an ASA only once.
 
-To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
+A new ASA ID is generated and mapped to the user.
 
-To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
+Use Case
+Ideal for issuing duplicate or updated assets to users while preventing abuse, such as for certificates, licenses, or proof-of-ownership tokens.
 
-### GitHub Codespaces
+Note: create_asset() and remint() use placeholder logic for ASA ID generation—requires actual itxn.AssetConfig() integration for mainnet/testnet use.
 
-To get started execute:
-
-1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
-2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
-
-Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
